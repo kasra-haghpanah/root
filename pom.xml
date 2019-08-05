@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jpa.developers</groupId>
+    <artifactId>root</artifactId>
+    <version>1.0.0</version>
+    <name>root</name>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../eclipselink</module>
+        <module>../jpql-maven-api</module>
+        <module>../jpql-maven-plugin</module>
+    </modules>
+
+    <repositories>
+
+        <repository>
+            <name>er23</name>
+            <id>maven2</id>
+            <url>http://192.168.7.245:8081/artifactory/</url>
+        </repository>
+
+        <repository>
+            <id>internal-repository2</id>
+            <url>http://novinbuild:8080/archiva/repository/internal</url>
+        </repository>
+
+        <repository>
+            <id>maven</id>
+            <url>https://mvnrepository.com/artifact</url>
+        </repository>
+
+
+    </repositories>
+
+
+</project>
